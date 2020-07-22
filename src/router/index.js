@@ -3,7 +3,6 @@ import VueRouter from "vue-router";
 
 // 引入组件
 import index from "../views/index.vue";
-import detail from "../views/detail.vue";
 import play from "../views/play.vue";
 import search from "../views/search.vue";
 
@@ -16,11 +15,6 @@ const routes = [
         component: index,
         meta: { footShow: true }
     },
-	{
-		path:"/detail",
-		component: detail,
-		meta: { footShow: true }
-	},
 	{
 		path:"/play/*",
 		component: play,
