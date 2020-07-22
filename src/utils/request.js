@@ -2,7 +2,7 @@ import axios from "axios";
 import qs from "qs";
 
 const service = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://kod.52pro.cn/www/dy/dy.php',
   timeout: 5000,
   headers: {
     "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
