@@ -72,7 +72,6 @@ export default {
 			}
 		})
 		clipboard.on('success', e => {
-			console.log(e);
 			clipboard.destroy();
 			if(!this.$cookies.isKey('ads')){
 				this.$cookies.set('ads',1)
